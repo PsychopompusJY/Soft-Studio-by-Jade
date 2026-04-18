@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soft Studio by Jade</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fffafc;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 70px 20px 50px;
+      background: linear-gradient(to bottom, #fff7fb, #fffafc);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 42px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .note {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 14px 22px;
+      border-radius: 999px;
+      background: #222;
+      color: white;
+      font-weight: bold;
+    }
+
+    .buttons a.secondary {
+      background: white;
+      color: #222;
+      border: 1px solid #ccc;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 24px;
+      font-size: 30px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #eee;
+      border-radius: 18px;
+      padding: 24px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 18px;
+      background: #f3f3f3;
+    }
+
+    .contact-box {
+      text-align: center;
+      background: white;
+      border: 1px solid #eee;
+      border-radius: 20px;
+      padding: 30px 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px 50px;
+      color: #666;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 32px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Soft Studio by Jade</h1>
+    <div class="subtitle">Eyebrow Tattoo & Eyeliner</div>
+    <div class="note">Contact for pricing and consultation</div>
+
+    <div class="buttons">
+      <a href="https://instagram.com/" target="_blank">Message on Instagram</a>
+      <a href="https://m.me/" target="_blank" class="secondary">Contact on Messenger</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Eyebrow Tattoo</h3>
+        <p>Soft and natural-looking brows tailored to your face.</p>
+      </div>
+      <div class="card">
+        <h3>Eyeliner</h3>
+        <p>Elegant eyeliner enhancement for a polished everyday look.</p>
+      </div>
+      <div class="card">
+        <h3>Consultation</h3>
+        <p>Message directly for details, availability, and pricing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/500x600?text=Photo+1" alt="Beauty work sample 1">
+      <img src="https://via.placeholder.com/500x600?text=Photo+2" alt="Beauty work sample 2">
+      <img src="https://via.placeholder.com/500x600?text=Photo+3" alt="Beauty work sample 3">
+    </div>
+  </section>
+
+  <section>
+    <div class="contact-box">
+      <h2>Book an Appointment</h2>
+      <p>Send a message on Instagram or Messenger to ask about pricing and book your appointment.</p>
+      <div class="buttons">
+        <a href="https://instagram.com/" target="_blank">Instagram</a>
+        <a href="https://m.me/" target="_blank" class="secondary">Messenger</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Soft Studio by Jade
+  </footer>
+</body>
+</html>
